@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator scientific</title>
+    <link rel="stylesheet" href="clc.css">
+</head>
+<body >
+    <h1>
+        calculator
+    </h1>
+    <section>
+        <div class="article">
+            <div class="clc-afficher" id="clc-afficher"></div>
+            <div class="total" id="resereve">0</div>
+            <form action="" >
+                <article class="clc-btn">
+                    <input type="button" value="Shift" onclick="OPI()">
+                    <input type="button" value="sin" onclick="OPIsin()">
+                    <input type="button" value="cos" id="val" onclick="OPIcos()">
+                    <input type="button" value="tan" id="val" onclick="OPItan()">
+                    <input type="button" value="log" id="val" onclick="OPIlog()">
+                </article>
+                <article class="clc-btn">
+                    <input type="button" value="x²" id="val" onclick="OPIsq()">
+                    <div class="btn" onclick="OPIpow()">x<sup>3</sup></div>
+                    <div class="btn" onclick="OPIeny()">x<sup>y</sup></div>
+                    <div class="btn" onclick="OPIexp()">e<sup>x</sup></div>
+                    <input type="button" value="ln" onclick="OPIln()">
+                </article>
+                <article class="clc-btn">
+                    <input type="button" value="π" onclick="OPIPi()">
+                    <input type="button" value="√" onclick="OPIsqrt()">
+                    <input type="button" value="mod" onclick="OPImod()">
+                    <input type="button" value="AC" onclick="OPIAC()">
+                    <div class="btn" onclick="OPIS()"><img src="delete.png" alt=""></div>
+                </article>
+                <article class="clc-btn">
+                    <input type="button" value="7" onclick="NUM7()">
+                    <input type="button" value="8" onclick="NUM8()">
+                    <input type="button" value="9" onclick="NUM9()">
+                    <input type="button" value="(" onclick="symbolR()">
+                    <input type="button" value=")" onclick="symbolL()">
+                </article>
+                <article class="clc-btn">
+                    <input type="button" value="4" onclick="NUM4()">
+                    <input type="button" value="5" onclick="NUM5()">
+                    <input type="button" value="6" onclick="NUM6()">
+                    <input type="button" value="X" onclick="OPIMUL()">
+                    <input type="button" value="÷" onclick="OPIDIV()">
+                </article>
+                <article class="clc-btn">
+                    <input type="button" value="1" onclick="NUM1()">
+                    <input type="button" value="2" onclick="NUM2()">
+                    <input type="button" value="3" onclick="NUM3()">
+                    <input type="button" value="+" onclick="OPIADD()">
+                    <input type="button" value="-" onclick="OPISUP()">
+                </article>
+                <article class="clc-btn">
+                    <input type="button" value="0" onclick="NUM0()">
+                    <input type="button" value="." onclick="POIS()">
+                    <input type="button" value="Ans" onclick="OPIAns()">
+                    <input type="button" value="!" onclick="OPIfactorial()">
+                    <input type="button" value="=" onclick="OPIEGAL()">
+                </article>
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        ©️2024-2024 calculator scientific. All rights reserved.
+    </footer>
+
+    <script src="clc.js"></script>
+</body>
+
+</html>
